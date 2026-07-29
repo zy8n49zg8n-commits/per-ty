@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>❤️ Për Qershinë Time ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:20px;
+
+overflow-x:hidden;
+
+background:linear-gradient(-45deg,#ff758c,#ff7eb3,#ffc3a0,#ff9a9e);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+
+}
+
+
+@keyframes bg{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+
+
+.card{
+
+width:100%;
+max-width:750px;
+
+max-height:90vh;
+overflow-y:auto;
+
+background:rgba(255,255,255,.18);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+padding:35px 25px;
+
+border-radius:25px;
+
+text-align:center;
+
+color:white;
+
+box-shadow:0 15px 45px rgba(0,0,0,.30);
+
+position:relative;
+
+z-index:5;
+
+}
+
+
+
+h1{
+
+font-size:clamp(25px,7vw,40px);
+
+margin-bottom:20px;
+
+}
+
+
+
+p{
+
+font-size:clamp(15px,4vw,20px);
+
+line-height:1.8;
+
+}
+
+
+
+button{
+
+margin-top:25px;
+
+padding:14px 30px;
+
+border:none;
+
+border-radius:50px;
+
+background:white;
+
+color:#ff4f81;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+
+button:active{
+
+transform:scale(.95);
+
+}
+
+
+
+#secret{
+
+display:none;
+
+margin-top:30px;
+
+animation:fade 1.5s;
+
+}
+
+
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
+
+.lovePhoto{
+
+width:100%;
+
+max-width:320px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+margin-bottom:20px;
+
+animation:zoom 1.2s;
+
+}
+
+
+
+@keyframes zoom{
+
+from{
+
+opacity:0;
+transform:scale(.6);
+
+}
+
+to{
+
+opacity:1;
+transform:scale(1);
+
+}
+
+}
+
+
+
+.heart{
+
+position:fixed;
+
+top:-50px;
+
+font-size:22px;
+
+animation:fall linear infinite;
+
+opacity:.8;
+
+pointer-events:none;
+
+z-index:1;
+
+}
+
+
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-100px);
+
+opacity:0;
+
+}
+
+15%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(110vh);
+
+opacity:0;
+
+}
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+body{
+
+padding:15px;
+
+}
+
+
+.card{
+
+padding:25px 18px;
+
+border-radius:20px;
+
+max-height:92vh;
+
+}
+
+
+h1{
+
+margin-bottom:15px;
+
+}
+
+
+button{
+
+width:100%;
+
+font-size:17px;
+
+}
+
+
+.lovePhoto{
+
+max-width:260px;
+
+}
+
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="card">
+
+
+<h1>❤️ Qershia ime e bukur ❤️</h1>
+
+
+<p>
+
+Nëse po e lexon këtë...
+
+do të thotë që ke skanuar një QR vetëm për ty.
+
+<br><br>
+
+E di që ndonjëherë të mërzis dhe nuk jam gjithmonë i lehtë për t'u duruar...
+
+por një gjë mos e harro kurrë.
+
+<br><br>
+
+Unë të zgjedh ty.
+
+<br>
+
+Sot.
+
+<br>
+
+Nesër.
+
+<br>
+
+Pas një viti.
+
+<br>
+
+Pas shumë vitesh.
+
+<br><br>
+
+Në çdo kohë, në çdo vend dhe në çdo moment.
+
+<br><br>
+
+Faleminderit që hyre në jetën time.
+
+Ti e bën botën time shumë më të bukur.
+
+❤️
+
+</p>
+
+
+
+<button onclick="showMessage()">
+
+Kliko këtu ❤️
+
+</button>
+
+
+
+<div id="secret">
+
+
+<img src="foto.png" class="lovePhoto">
+
+
+<h2>❤️ Une dhe Ti ❤️</h2>
+
+
+<p>
+
+Ndoshta nuk jemi perfekt.
+
+Por jemi perfekt për njëri-tjetrin.
+
+<br><br>
+
+Premtoj që do jem gjithmonë aty për ty.
+
+Do të të mbroj.
+
+Do të të përqafoj.
+
+Do të të dua çdo ditë edhe më shumë.
+
+<br><br>
+
+Ti je surpriza më e bukur që më ka ndodhur.
+
+<br><br>
+
+❤️ Të dua pafund ❤️
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+<script>
+
+
+function showMessage(){
+
+document.getElementById("secret").style.display="block";
+
+}
+
+
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.fontSize=(15+Math.random()*20)+"px";
+
+heart.style.animationDuration=(4+Math.random()*5)+"s";
+
+
+document.body.appendChild(heart);
+
+
+setTimeout(()=>{
+
+heart.remove();
+
+},9000);
+
+
+}
+
+
+setInterval(createHeart,350);
+
+
+</script>
+
+
+</body>
+
+</html>
